@@ -1,19 +1,12 @@
+import Button from '../../components/Button/Button'
+import Navbar from '../../components/Navbar/Navbar'
 import './About.css'
 
 const About = () => {
     return (
         <div>
-            <header>
-                <h1>Nepal Travel & Tourism</h1>
-            </header>
-
-            <nav>
-                <a href="/">Home</a>
-                <a href="#">Destinations</a>
-                <a href="#">Activities</a>
-                <a href="/about">About Us</a>
-                <a href="/contact">Contact</a>
-            </nav>
+            <Navbar />
+            <Button title="Register" />
 
             <section>
                 <div className="about-us">

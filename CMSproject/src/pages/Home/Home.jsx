@@ -1,19 +1,13 @@
+import Button from '../../components/Button/Button'
+import Navbar from '../../components/Navbar/Navbar'
 import './Home.css'
 //component not function because it returns our html and exports our code
 const Home = () => {
     return (
         <div>
-            <header>
-                <h1>Nepal Travel & Tourism</h1>
-            </header>
-
-            <nav>
-                <a href="/">Home</a>
-                <a href="#">Destinations</a>
-                <a href="#">Activities</a>
-                <a href="/about">About Us</a>
-                <a href="/contact">Contact</a>
-            </nav>
+            <Navbar />
+            <Button title="Login" color="green" />
+            <Button title="Register" color="red" />
 
             <section>
                 <div className="featured-destination">
